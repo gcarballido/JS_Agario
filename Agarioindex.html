@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<style>
+			canvas{border:1px solid black;}
+			#lienzofondo{display:none;}
+			#lienzoactores{display:block;}
+			
+			/* Cargamos las fuentes */
+			@font-face {
+				 font-family: 'ubuntu';
+				 src: url('img/Ubuntu-M.ttf');
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<canvas id="lienzofondo" width=1920px height=1080px> </canvas>
+		<canvas id="lienzoactores" width=1920px height=1080px> </canvas>
+		
+		<!-- Librerias -->
+			<script src="jquery.js"> </script>
+			
+		<!-- Importacion de clases y jerarquias -->
+			<script src = "js/Comida.js"> </script>
+			<script src = "js/Bacteria.js"> </script>
+		
+		<!-- Archivos principales del proyecto -->
+			<script src = "js/agarbucle.js"> </script>
+			<script src = "js/agarinicio.js"> </script>
+			<script src = "js/agarcondiciones.js"> </script>
+	</body>
+</html>
